@@ -1,8 +1,7 @@
-from fastapi import FastAPI, Query
-from pydantic import BaseModel
+from fastapi import FastAPI, Form
 
 app = FastAPI()
 
 @app.post("/add")
-def add(a: float = Query(...), b: float = Query(...)):
+def add(a: float = Form(...), b: float = Form(...)):
     return {"result": a + b}
