@@ -3,6 +3,6 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-@app.get("/add")
+@app.post("/add")
 def add(a: float = Query(...), b: float = Query(...)):
     return {"result": a + b}
