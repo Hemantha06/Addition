@@ -18,10 +18,10 @@ jobs:
         username: ${{ secrets.EC2_USER }}
         key: ${{ secrets.SSH_KEY }}
         script: |
-          cd /home/ubuntu/main
+          cd /home/ubuntu
           sudo rm -rf Addition
           git clone https://github.com/Hemantha06/Addition.git
-          cd /home/ubuntu/main/Addition
+          cd /home/ubuntu/Addition
           git checkout main
           git pull origin main
           chmod +x deploy.sh
