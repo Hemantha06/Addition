@@ -2,7 +2,7 @@
 
 APP_DIR="/home/ubuntu/Addition"
 APP_NAME="test"
-SERVICE_NAME="fastapi.service"
+SERVICE_NAME="add"
 PYTHON_ENV="$APP_DIR/venv"
 
 # Stop existing service if running
