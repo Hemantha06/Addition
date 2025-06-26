@@ -40,3 +40,6 @@ sudo systemctl restart $SERVICE_NAME
 
 # Set permissions if needed
 sudo chown -R ubuntu:www-data $APP_DIR
+
+sudo nginx -t
+sudo systemctl restart nginx
