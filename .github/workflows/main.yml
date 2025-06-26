@@ -20,7 +20,7 @@ jobs:
         script: |
           cd /home/ubuntu/main
           sudo rm -rf Addition
-          git clone git@github.com:repo
+          git clone https://github.com/Hemantha06/Addition.git
           cd /home/ubuntu/main/Addition
           git checkout main
           git pull origin main
