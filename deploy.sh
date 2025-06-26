@@ -1,6 +1,6 @@
 #!/bin/bash
 
-APP_DIR="/home/ubuntu/main/Addition"
+APP_DIR="/home/ubuntu/Addition"
 APP_NAME="test"
 SERVICE_NAME="fastapi.service"
 PYTHON_ENV="$APP_DIR/venv"
